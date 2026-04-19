@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+__pycache__/
+latte_discord_data.json
+*.env
+.env
