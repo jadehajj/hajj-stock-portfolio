@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const COOKIE_NAME = 'portfolio_auth';
-const PASSCODE = process.env.PASSCODE;
+const PASSCODE = process.env.PASSCODE || '2380';
 
 function parseCookies(req) {
   const list = {};
